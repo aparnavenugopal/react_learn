@@ -9,12 +9,12 @@ const initialItems = [
 ];
 
 
-const PackingList = ({ items }) => {
+const PackingList = ({ items, onDeleteItem, onToggleItems }) => {
   return (
     <div className='list'>
       <ul>
       {
-        items.map(item => <Item item={item} key={item.id} />)
+        items.map(item => <Item item={item} key={item.id} onDeleteItem={onDeleteItem} onToggleItems={onToggleItems} />)
       } 
       </ul>
     </div>
