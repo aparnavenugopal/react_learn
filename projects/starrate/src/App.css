@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1px;
+}
+
+.head{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.para{
+  padding-left: 30px;
+  line-height: 1px;
+}
+
+.stars{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding-left: 65px;
+}
+
+.star{
+   font-size: 20px;
+   transition: fill 0.2s;
+   cursor: pointer;
+   color: lightgray;
+}
+
+.but{
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 30px;
+  background-color: blue ;
+  border-color: transparent;
+  color: white;
+}
+
+.rate{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

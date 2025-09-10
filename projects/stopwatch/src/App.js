@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   const [time, setTime] = useState(0);
   const [hault, setHault] = useState(true);
+  const [resume, setResume] = useState(false);
 
   useEffect(() => {
     let watch;
@@ -30,7 +31,10 @@ function App() {
   }
 
   const handleResume = () => {
-    setHault(false); // continue without resetting
+    setResume(true);
+    if(resume){
+      setHault(false); 
+    }
   }
 
   return (
