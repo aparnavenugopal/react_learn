@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:3px;
+  flex-direction: column;
+}
+
+.time{
+   font-weight: 100px;
+   line-height: 20px;
+   letter-spacing: 2px;
+}
+
+.buttons{
+  display:flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.but{
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  background-color: blue;
+  color: aliceblue;
+  border: 0cm;
+}
