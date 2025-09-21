@@ -1,0 +1,43 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.head{
+  font-weight: 300;
+  text-align: center;
+}
+
+.text{
+  width: 300px;
+  height: 20px;
+  margin-left: 600px;
+  margin-bottom: 10px;
+}
+
+.chips-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+  align-content: center;
+  justify-content: center;
+}
+
+.chip{
+  display: inline-flex;
+  align-items: center;
+  border-radius: 7px;
+  background: gray;
+  padding: 5px;
+  color: azure;
+  gap: 3px;
+}
+
+.delete{
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
